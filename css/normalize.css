@@ -168,6 +168,10 @@ textarea {
     margin: 0; /* 2 */
 }
 
+button, input {
+    cursor: pointer;
+}
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -346,4 +350,13 @@ template {
 
 [hidden] {
     display: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
