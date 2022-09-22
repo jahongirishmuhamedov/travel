@@ -9,14 +9,14 @@ html {
     scroll-behavior: smooth;
 }
 
-/*body {*/
-/*    font-family: 'Aleo', sans-serif;*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    font-size: 20px;*/
-/*    line-height: 24px;*/
-/*    color: #0D606F;*/
-/*}*/
+body {
+    font-family: 'Aleo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
 
 .container {
     max-width: 1230px;
@@ -25,8 +25,21 @@ html {
     padding-right: 15px;
 }
 
-.header {
+/* Header block style */
+
+.header__wrapper-image {
+    background-image: url("../images/preview-bg.jpg");
+    max-width: 1440px;
+    width: 100%;
     height: 765px;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    padding: 30px 120px;
 }
 
 .header__wrapper {
@@ -34,4 +47,145 @@ html {
     justify-content: space-between;
     align-items: center;
 }
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo__title {
+    font-family: 'Magra', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-left: 6px;
+}
+
+.header-navigation__list {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation__item {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    transition: 0.4s ease-in;
+}
+
+.header-navigation__item:hover {
+    color: #0D606F;
+
+}
+
+.header-navigation__item + .header-navigation__item {
+    margin-left: 42px;
+}
+
+.header__button {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    background-color: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+}
+
+.header__button:hover, .header__button:focus, .header__button:active {
+    transform: scale(1.05);
+    transition: 0.3s ease-in;
+}
+
+/* Preview section style */
+.preview {
+    width: 892px;
+    margin-top: 32px;
+}
+
+.preview__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+.preview__text {
+    font-family: 'Aleo', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 46px;
+}
+
+.preview__form {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    width: 892px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preview-form__text {
+    border: none;
+    width: 560px;
+    height: 22px;
+    padding: 20px 0;
+    margin-left: 40px;
+    background-color: transparent;
+    outline: none;
+    color: #F2785C;
+
+    font-family: 'Aleo',sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.preview-form__text::placeholder {
+    font-family: 'Aleo',sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2785C;
+}
+
+.preview-form__button {
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 13px 32px;
+    margin-right: 18px;
+
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+/* End Preview section */
+
+/* End header block */
+
+
+
+
+
 
