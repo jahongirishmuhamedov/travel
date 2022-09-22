@@ -25,6 +25,20 @@ body {
     padding-right: 15px;
 }
 
+.wrapper {
+    padding: 30px 120px;
+}
+
+.title {
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    text-align: center;
+}
+
 /* Header block style */
 
 .header__wrapper-image {
@@ -180,9 +194,52 @@ body {
     line-height: 32px;
     color: #FFFFFF;
 }
-/* End Preview section */
 
-/* End header block */
+.steps {
+    margin-top: 80px;
+    margin-bottom: 97px;
+}
+
+.steps__title {
+    margin-bottom: 40px;
+}
+
+.steps__icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.steps__icon-item {
+    margin-left: 50px;
+}
+
+.steps__icon-img {
+    border-radius: 16px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+.destinations__wrapper {
+    overflow: hidden;
+}
+
+.destinations__title {
+    margin-bottom: 45px;
+}
+
+.destinations-slider__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.destinations-slider__img {
+    border-radius: 16px;
+    margin-left: 30px;
+}
+
+
 
 
 
